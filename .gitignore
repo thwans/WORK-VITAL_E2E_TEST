@@ -1,0 +1,16 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Temporary Playwright MCP browser output
+/.playwright-mcp/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
